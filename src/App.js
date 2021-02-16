@@ -3,6 +3,8 @@ import mercedes from './mercgla.jpg'
 import vw from './vwgolf.jpg'
 import volvo from './volvoxc40.jpg'
 import Car from './components/Car'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './App.css';
 
 
@@ -12,7 +14,7 @@ function App() {
       <div class="mainCont">
         <div class="titleArea">
           <h1>Latest brand new car deals</h1>
-          <h2>View more deals </h2>
+          <h2>View more deals <FontAwesomeIcon icon = {faArrowRight} /> </h2>
         </div>
         <div class="carConts">
           <Car name="Audi RS3" 
